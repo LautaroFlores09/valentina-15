@@ -66,7 +66,10 @@ const PlaylistSection = () => {
           <CustomButton
             label="Ver playlist"
             icon={<MusicNoteIcon />}
-            onClick={handleOpenPlaylist}
+            // onClick={handleOpenPlaylist}
+            href={
+              "https://www.youtube.com/playlist?list=PLivvLvQVWNyS4TEfKIIlbhbNgW_6cp2gx&jct=YsvCirutFg8U4jpYBj2HSA"
+            }
           />
         </Stack>
       </Box>
