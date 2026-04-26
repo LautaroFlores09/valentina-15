@@ -30,7 +30,7 @@ export default function Footer() {
             textAlign: "center",
             fontFamily: '"Mea Culpa", cursive',
             color: "white",
-            fontSize: "3.5rem",
+            fontSize: "3rem",
             mt: 2,
           }}
         >

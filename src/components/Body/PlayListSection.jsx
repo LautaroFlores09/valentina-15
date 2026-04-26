@@ -6,12 +6,6 @@ import CustomButton from "../CustomButton";
 import PlaylistImg from "../../assets/playlist.png";
 
 const PlaylistSection = () => {
-  const handleOpenPlaylist = () => {
-    const playlistUrl =
-      "https://www.youtube.com/playlist?list=PLivvLvQVWNyS4TEfKIIlbhbNgW_6cp2gx&jct=YsvCirutFg8U4jpYBj2HSA";
-    window.open(playlistUrl, "_blank");
-  };
-
   return (
     <>
       <Box
@@ -66,7 +60,9 @@ const PlaylistSection = () => {
           <CustomButton
             label="Ver playlist"
             icon={<MusicNoteIcon />}
-            // onClick={handleOpenPlaylist}
+            onClick={() => {
+              console.log("playlist");
+            }}
             href={
               "https://www.youtube.com/playlist?list=PLivvLvQVWNyS4TEfKIIlbhbNgW_6cp2gx&jct=YsvCirutFg8U4jpYBj2HSA"
             }
