@@ -1,4 +1,4 @@
-import Invitacion from "./pages/invitacion";
+import Invitacion from "./pages/Invitacion";
 
 function App() {
   return (
