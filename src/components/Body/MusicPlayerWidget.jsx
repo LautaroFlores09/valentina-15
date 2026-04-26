@@ -18,7 +18,7 @@ import { useState, useRef, useEffect } from "react";
 
 import Image1 from "../../assets/valenPelotero.png";
 import Image2 from "../../assets/valenChiquita.png"; // Imagen de ejemplo para el carrusel
-import Image3 from "../../assets/valenGrande.png"; // Imagen de ejemplo para el carrusel
+import Image3 from "../../assets/valenGrande.png";
 import MusicFile from "../../assets/music/Stray Kids Youtiful.mp3";
 
 const MusicPlayerWidget = () => {

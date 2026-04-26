@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { FadeUpIn } from "./ScrollAnimations";
 import ScrollIndicator from "./ScrollIndicator";
+import HEADERBACKGROUND from "../assets/headerbackground.jpg";
 
 export default function Header() {
   return (
@@ -10,7 +11,8 @@ export default function Header() {
         position: "relative",
         aspectRatio: "1625 / 2481",
         width: "100%",
-        backgroundImage: `url('/src/assets/headerbackground.jpg')`,
+        // backgroundImage: `url('/src/assets/headerbackground.jpg')`,
+        backgroundImage: `url(${HEADERBACKGROUND})`,
         backgroundSize: "100% 100%",
         backgroundPosition: "center top",
         backgroundRepeat: "no-repeat",

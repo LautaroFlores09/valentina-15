@@ -8,6 +8,7 @@ import RegaloSection from "./Body/RegaloSection";
 import PlaylistSection from "./Body/PlayListSection";
 import ConfirmacionSection from "./Body/ConfirmacionSection";
 import { FadeUpIn, ZoomIn, BlurIn } from "./ScrollAnimations";
+import BODYBACKGROUND from "../assets/bodybackground.jpg";
 
 export default function Body() {
   return (
@@ -16,7 +17,7 @@ export default function Body() {
       sx={{
         py: { xs: "3rem", md: "4rem" },
         width: "100%",
-        backgroundImage: `url('/src/assets/bodybackground.jpg')`,
+        backgroundImage: `url(${BODYBACKGROUND})`,
         backgroundSize: "100% auto",
         backgroundPosition: "center center",
         padding: { xs: "2rem 1rem", md: "4rem 2rem" },

@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import { FadeUpIn } from "./ScrollAnimations";
+import FOOTERBACKGROUND from "../assets/footerbackground.jpg";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
         position: "relative",
         aspectRatio: "1625 / 1366",
         width: "100%",
-        backgroundImage: `url('/src/assets/footerbackground.jpg')`,
+        backgroundImage: `url(${FOOTERBACKGROUND})`,
         backgroundSize: "100% 100%",
         backgroundPosition: "center top",
         backgroundRepeat: "no-repeat",
